@@ -1,0 +1,81 @@
+body {
+    background-color: #edebee
+}
+
+main {
+    color: #00719d;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+header#page-header {
+    display: flex;
+    height: 8em;
+    background: rgb(164,228,255);
+background: radial-gradient(circle, rgba(164,228,255,1) 0%, rgba(148,194,214,1) 29%, rgba(124,156,174,1) 86%);
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 2em;
+    color: white;
+}
+
+#banner-caption {
+    margin: auto;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 2em;
+}
+
+#apologies {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+.flex-to-right, .flex-to-left {
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    flex-wrap: wrap;
+}
+
+.flex-to-right {
+    flex-direction: row-reverse;
+}
+
+.hex-image {
+    flex: 1;
+    height: fit-content;
+}
+
+.hexagon {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+.briefing-panel {
+    flex: 1;
+}
+
+
+
+.briefing-text { 
+    width: 50ch;
+}
+
+.briefing-caption {
+    font-size: 2.5em;
+    width: 22ch;
+    border-top: 2px solid #00719d;
+}
