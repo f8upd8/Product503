@@ -1,0 +1,64 @@
+body {
+    background-color: #edebee;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 32em;
+    background: rgb(164,228,255);
+background: radial-gradient(circle, rgb(183, 234, 255) 0%, rgb(135, 199, 227) 43%, rgba(124,156,174,1) 86%);
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 4rem;
+    color: white;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+#nav-caption {
+    font-size: 2.5rem;
+    margin-right: 3rem;
+}
+
+#controls {
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+#banner-caption {
+    margin: auto;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 4em;
+}
+
+footer {
+    height: 7em;
+    background-color: #046b8b;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-links {
+    color: white;
+    margin-right: 16rem;
+}
+
+#copyright-text {
+    color: rgb(190, 190, 190);
+}
+
+#about-us-footer {
+    margin-right: 10rem;
+}
