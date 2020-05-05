@@ -6,7 +6,7 @@ body {
 main {
     color: #00719d;
     background-color: white;
-    width: 60%;
+    width: fit-content;
     margin: 15rem auto;
     position: relative;
 }
@@ -23,7 +23,7 @@ main:after {
 }
 
 
-header#page-header {
+header {
     display: flex;
     height: 32em;
     background: rgb(164,228,255);
@@ -90,6 +90,7 @@ nav {
     display: flex;
     margin: 0em 1em;
     width: 20vw;
+    min-width: 30ch;
 }
 
 .hexagon {
@@ -101,6 +102,7 @@ nav {
     height: fit-content;
     margin: 0 1em;
     width: 20vw;
+    min-width: 30ch;
 }
 
 
