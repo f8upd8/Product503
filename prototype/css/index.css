@@ -1,29 +1,56 @@
 body {
-    background-color: #edebee
+    background-color: #edebee;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
     color: #00719d;
     background-color: white;
     width: 60%;
-    margin: auto;
+    margin: 15rem auto;
+    position: relative;
 }
+
+main:before,
+main:after {
+ content: "";
+ position: absolute;
+ left: 0; right: 0;
+ bottom: 100%;
+ border-bottom: 2em solid white;
+ border-left: 2.3em solid transparent;
+ border-right: 2.3em solid transparent;
+}
+
 
 header#page-header {
     display: flex;
-    height: 8em;
+    height: 32em;
     background: rgb(164,228,255);
-background: radial-gradient(circle, rgba(164,228,255,1) 0%, rgba(148,194,214,1) 29%, rgba(124,156,174,1) 86%);
-    font-family: monospace;
+background: radial-gradient(circle, rgb(183, 234, 255) 0%, rgb(135, 199, 227) 43%, rgba(124,156,174,1) 86%);
 }
 
 nav {
     display: flex;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.05);
     width: 100%;
-    height: 2em;
+    height: 4rem;
     color: white;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+#nav-caption {
+    font-size: 2.5rem;
+    margin-right: 3rem;
+}
+
+#controls {
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    font-size: 1.6rem;
+    text-transform: uppercase;
 }
 
 #banner-caption {
@@ -31,22 +58,28 @@ nav {
     text-transform: uppercase;
     color: white;
     text-shadow: 1px 1px 2px white;
-    font-size: 2em;
+    font-size: 4em;
+}
+
+#panels-container {
+    padding: 0 4em;
 }
 
 #apologies {
     text-align: center;
-    width: 30%;
+    width: 30ch;
     margin: auto;
-    padding: 2em 0;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
 }
 
 .flex-to-right, .flex-to-left {
     padding: 3em;
     display: flex;
     justify-content: space-between;
-    height: 30vh;
-    flex-wrap: wrap;
+    height: fit-content;
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
 }
 
 .flex-to-right {
@@ -54,28 +87,66 @@ nav {
 }
 
 .hex-image {
-    flex: 1;
-    height: fit-content;
+    display: flex;
+    margin: 0em 1em;
+    width: 20vw;
 }
 
 .hexagon {
-    display: block;
     margin: auto;
-    padding: 1em;
+    max-width: 100%;
 }
 
 .briefing-panel {
-    flex: 1;
+    height: fit-content;
+    margin: 0 1em;
+    width: 20vw;
 }
 
 
 
 .briefing-text { 
-    width: 50ch;
+    margin-bottom: 6em;
+    font-size: 1.2em;
 }
 
 .briefing-caption {
-    font-size: 2.5em;
-    width: 22ch;
-    border-top: 2px solid #00719d;
+    font-size: 2em;
+    border-top: 2px solid #008cc4;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.more-info-button {
+    background-color: #008cc4;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 0.2ch;
+    font-size: 1.6em;
+    padding: 0.5ch 2ch;
+    border-radius: 0.2em;
+}
+
+footer {
+    height: 7em;
+    background-color: #046b8b;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-links {
+    color: white;
+    margin-right: 16rem;
+}
+
+#copyright-text {
+    color: rgb(190, 190, 190);
+}
+
+#about-us-footer {
+    margin-right: 10rem;
 }
