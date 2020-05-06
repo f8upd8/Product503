@@ -3,6 +3,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#header-left {
+    position: absolute;
+    height: 58vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("../img/header-left.png");
+}
+
+#header-right {
+    position: absolute;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 58vh;
+    width: 100%;
+    background-image: url("../img/header-right.png");
+}
+
 header {
     display: flex;
     height: 58vh;
