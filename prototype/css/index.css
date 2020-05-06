@@ -1,8 +1,36 @@
+#header-left {
+    position: absolute;
+    height: 58vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("/prototype/img/header-left.png");
+}
+
+#header-right {
+    position: absolute;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 58vh;
+    width: 100%;
+    background-image: url("/prototype/img/header-right.png");
+}
+
+#header-division {
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/prototype/img/header-division.png");
+}
+
 main {
     color: #00719d;
     background-color: white;
     width: fit-content;
-    margin: 15rem auto;
+    margin: 8rem auto;
     position: relative;
     display: table;
 }
