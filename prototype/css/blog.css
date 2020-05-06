@@ -4,6 +4,7 @@
     height: 58vh;
     background-image: url("https://dacdn.fra1.digitaloceanspaces.com/stock/folderabstract-low-poly-wireframe-mesh-design-vector-288920431.png"); 
     background-size: cover;
+    background-position: center;
     opacity: 0.9;
     z-index: 2;
 }
