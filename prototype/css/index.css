@@ -76,6 +76,7 @@ main:after {
     margin: 0em 1em;
     width: 20vw;
     min-width: 30ch;
+    pointer-events: none;
 }
 
 .hexagon {
