@@ -5,7 +5,7 @@ body {
 
 #header-left {
     position: absolute;
-    height: 40vh;
+    height: 56vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,14 +18,14 @@ body {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 56vh;
     width: 100%;
     background-image: url("../img/header-right.png");
 }
 
 header {
     display: flex;
-    height: 40vh;
+    height: 56vh;
     width: 100vw;
     background: rgb(164,228,255);
 background: radial-gradient(circle at top, #a5d8ee  0%, #89c3db 20%, #7c9cae 100%);
