@@ -5,9 +5,9 @@ body {
 
 header {
     display: flex;
-    height: 32em;
+    height: 58vh;
     background: rgb(164,228,255);
-background: radial-gradient(circle, rgb(183, 234, 255) 0%, rgb(135, 199, 227) 43%, rgba(124,156,174,1) 86%);
+background: radial-gradient(circle at top, #a5d8ee  0%, #89c3db 20%, #7c9cae 100%);
 }
 
 nav {
@@ -39,6 +39,7 @@ nav {
     color: white;
     text-shadow: 1px 1px 2px white;
     font-size: 4em;
+    z-index: 2;
 }
 
 footer {
