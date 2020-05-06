@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    background-image: url("/prototype/img/header-left.png");
+    background-image: url("../img/header-left.png");
 }
 
 #header-right {
@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     height: 58vh;
     width: 100%;
-    background-image: url("/prototype/img/header-right.png");
+    background-image: url("../img/header-right.png");
 }
 
 #header-division {
@@ -23,7 +23,7 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("/prototype/img/header-division.png");
+    background-image: url("../img/header-division.png");
 }
 
 main {
