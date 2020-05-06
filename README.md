@@ -3,9 +3,9 @@
 
 # Шаблоны
 
-[Главная Страница](http://f8upd8.github.io/Product503/prototype/index.html) 75%
+[Главная Страница](http://f8upd8.github.io/Product503/prototype/index.html) 75% !Нужны иконки
 
-[Блог](http://f8upd8.github.io/Product503/prototype/blog.html) 0%
+[Блог](http://f8upd8.github.io/Product503/prototype/blog.html) 80% !Нужны иконки
 
 [Инвестиции](http://f8upd8.github.io/Product503/prototype/invest.html) 0%
 
