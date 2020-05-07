@@ -5,7 +5,7 @@
 
 [Главная Страница](http://f8upd8.github.io/Product503/prototype/index.html) 75% !Нужны иконки
 
-[Блог](http://f8upd8.github.io/Product503/prototype/blog.html) 80% !Нужны иконки
+[Блог](http://f8upd8.github.io/Product503/prototype/blog.html) 80% !Нужны иконки и оценка
 
 [Инвестиции](http://f8upd8.github.io/Product503/prototype/invest.html) 85% ! Нужна оценка
 
@@ -13,5 +13,4 @@
 
 [Проблемы и Решения](http://f8upd8.github.io/Product503/prototype/problem-and-solution.html) 90% ! Нужна оценка
 
-[Проекты](http://f8upd8.github.io/Product503/prototype/projects.html) 0%
-
+[Проекты](http://f8upd8.github.io/Product503/prototype/projects.html) 85% ! Нужна оценка и иконки
