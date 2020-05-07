@@ -28,7 +28,7 @@ header {
     height: 45vh;
     width: 100vw;
     background: rgb(164,228,255);
-background: radial-gradient(circle at top, #a5d8ee  0%, #89c3db 20%, #7c9cae 100%);
+    background: radial-gradient(circle at top, #c6e6f8 0%, #9cc2d9 45%, #859bac 100%);
 }
 
 nav {
