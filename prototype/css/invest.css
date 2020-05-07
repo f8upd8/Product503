@@ -26,17 +26,14 @@ nav {
 }
 
 main {
-    height: fit-content;
+    
 }
 
 #reasons-entry-container {
     width: 80%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
-    margin: 10rem auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    margin: 5rem 5rem;
     color: #3f3f3f;
 }
 
@@ -45,28 +42,18 @@ main {
     justify-content: center;
     margin: 5rem 3rem;
     font-size: 1.2rem;
-}
-
-.explanation-box {
-    margin-right: 30%;
+    flex-wrap: nowrap;
 }
 
 .reasons-entry-button {
-    background-color: #008cc4;
     display: flex;
     flex-direction: column;
-    justify-items: left;
-    padding: 3.2rem 8rem;
-    border-radius: 0.35rem;
-    transform: skewX(-27deg);
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    position: relative;
     color: white;
+    width: 10ch;
 }
 
 .reasons-entry-button span {
-    transform: skewX(27deg);
-    position: absolute;
     text-transform: uppercase;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
@@ -88,16 +75,29 @@ main {
 }
 
 .white-rectangle {
-    border-radius: 0.35rem;
+    border-radius: 0.5rem;
     transform: skewX(-27deg);
     position: absolute;
-    padding: 3.2rem 8rem;
+    padding: 3.5rem 16rem;
     background-color: white;
     z-index: -1;
-    left: 10%;
+    top: -2rem;
+    left: -4.5rem;
 }
 
-.explanation {
-    width: 80%;
-    min-width: 50ch;
+.blue-rectangle {
+    border-radius: 0.5rem;
+    transform: skewX(-27deg);
+    position: absolute;
+    padding: 3.5rem 9rem;
+    background-color: #008cc4;
+    z-index: -1;
+    top: -2rem;
+    left: -2rem;
+}
+
+.explanation-block {
+    position: relative;
+    width: 55ch;
+    margin-right: 25vw;
 }
