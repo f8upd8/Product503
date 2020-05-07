@@ -9,9 +9,9 @@
 
 [Инвестиции](http://f8upd8.github.io/Product503/prototype/invest.html) 85% ! Нужна оценка
 
-[Миссия](http://f8upd8.github.io/Product503/prototype/mission.html) 0%
+[Миссия](http://f8upd8.github.io/Product503/prototype/mission.html) 90% ! Нужна оценка
 
-[Проблемы и Решения](http://f8upd8.github.io/Product503/prototype/problem-and-solution.html) 0%
+[Проблемы и Решения](http://f8upd8.github.io/Product503/prototype/problem-and-solution.html) 90% ! Нужна оценка
 
 [Проекты](http://f8upd8.github.io/Product503/prototype/projects.html) 0%
 
