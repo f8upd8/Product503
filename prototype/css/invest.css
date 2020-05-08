@@ -8,7 +8,7 @@
 }
 
 main {
-    
+    width: 95%;
 }
 
 #reasons-entry-container {
@@ -19,12 +19,17 @@ main {
     color: #3f3f3f;
 }
 
-.reasons-entry {
+.reasons-entry, .decorative-entry {
     display: flex;
     justify-content: center;
     margin: 5rem 3rem;
     font-size: 1.2rem;
     flex-wrap: nowrap;
+    min-width: 100%;
+}
+
+.decorative-entry {
+    justify-content: flex-end;
 }
 
 .reasons-entry-button {
@@ -44,12 +49,13 @@ main {
     font-size: 1.3rem;
     left: 1.4rem;
     bottom: 4rem;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .platform-name {
     font-size: 1.8rem;
     left: 2.2rem;
+    font-weight: 200;
 }
 
 .platform-name-text {
@@ -76,10 +82,68 @@ main {
     z-index: -1;
     top: -2rem;
     left: -2rem;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.grey-rectangle {
+    border-radius: 0.5rem;
+    transform: skewX(-27deg);
+    background-color: #2c2c2c;
+    padding: 1.7rem 1.1rem;
+    z-index: -1;
+    width: 35ch;
+    float: right;
+    display: block;
+    position: relative;
+}
+
+.grey-rectangle span, #inside-grey-rect {
+    color: white;
+    transform: skewX(27deg);
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.grey-rectangle div {
+    margin: auto;
+    text-align: center;
 }
 
 .explanation-block {
     position: relative;
     width: 55ch;
     margin-right: 25vw;
+}
+
+#why {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#us {
+    font-size: 1.9rem;
+    font-weight: 200;
+}
+
+#main-caption-container {
+    font-family: 'Tomorrow', sans-serif;
+    width: 12ch;
+    font-size: 4rem;
+    margin: 3rem 20%;
+    color: #008cc4;
+}
+
+#caption-1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+#caption-2 {
+    font-weight: 200;
+}
+
+#main-caption-container span {
+    display: block;
 }
