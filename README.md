@@ -7,7 +7,7 @@
 
 [Блог](http://f8upd8.github.io/Product503/prototype/blog.html) 80% !Нужны иконки и оценка
 
-[Инвестиции](http://f8upd8.github.io/Product503/prototype/invest.html) 65%
+[Инвестиции](http://f8upd8.github.io/Product503/prototype/invest.html) 85% !Нужны иконки
 
 [Миссия](http://f8upd8.github.io/Product503/prototype/mission.html) 90% ! Нужна оценка
 
